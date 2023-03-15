@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🪄 Hogwards - Crie seu avatar</title>
+        <link rel="stylesheet" href="../assets/css/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Julius+Sans+One|Oswald" rel="stylesheet">
+    </head>
+    <body>
+        <div id="background">
+            <!-- Escola de Magia e Bruxaria de Hogwarts -->
+            <section id="card_create">
+                <div id="header_card_create">
+                    <h2>Criando seu avatar</h2>
+                    <a href="../views/home.html" id="button_return">Voltar</a>
+                </div>
+                <form id="myform">
+                    <div>
+                        <input type="text" id="name" placeholder="Nome" required>
+                        <div id="error_name" class="error"></div>
+                    </div>
+
+                    <div>
+                        <select id="avatar" required>
+                            <option value="" disabled selected hidden>Personagem</option>
+                            <option
+                                value="https://preview.redd.it/40tnnmhzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=6330b0cdaf22c467081660f44da11d5b3b41ecad">
+                                1 - Harry Potter</option>
+                            <option
+                                value="https://preview.redd.it/la92jmhzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=ee8ce1ab05225b54b50bf3ad6ccb6626bfd11682">
+                                2 - Hermione Granger</option>
+                            <option
+                                value="https://preview.redd.it/lgah0mhzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=616fb093d5249a3e50ea6847d1a77fa883704f9e">
+                                3 - Ron Weasley</option>
+                            <option
+                                value="https://preview.redd.it/gqszdmhzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=49b1a8700a5737ee62ec0d9ee9568c4ee4881fb5">
+                                4 - Neville Longbottom</option>
+                            <option
+                                value="https://preview.redd.it/24aklmhzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=96a16fd0e76c4e928ca857afb15b4c1e81712246">
+                                5 - Draco Malfoy</option>
+                            <option
+                                value="https://preview.redd.it/egi17mhzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=a9502eb05100a58b0fbb2a997b4828ba9fcc7011">
+                                6 - Rubeus Hagrid</option>
+                            <option
+                                value="https://preview.redd.it/rkii4qhzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=53cec6354272c2fa2c5441c166bd2310211961c6">
+                                7 - Albus Dumbledore</option>
+                            <option
+                                value="https://preview.redd.it/c8cp8fizs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=7e5af5e6c7ce5efb700986185f7ba680d3155d86">
+                                8 - Dudley Dursley</option>
+                            <option
+                                value="https://preview.redd.it/xddfggizs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=8bf7b16a2624efd95e1a0d5711a5737166534ba6">
+                                9 - Hedwig</option>
+                            <option
+                                value="https://preview.redd.it/n7axihizs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=ace396315ca176c4edd7b7fe54082773f121989f">
+                                10 - Vernon Dursley</option>
+                            <option
+                                value="https://preview.redd.it/dgil1qhzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=18bd2e0ccf8e559ebd65b5603a5b6d9ba7f47a29">
+                                11 - Minerva McGonagall</option>
+                            <option
+                                value="https://preview.redd.it/6v2iweizs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=7b7a0a856611ff10c8910d61c56cfb271ddcc6a6">
+                                12 - Severus Snape</option>
+                            <option
+                                value="https://preview.redd.it/433biqhzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=75837e6a368680b69bb9ca4ae6cb3cc5df19d4e8">
+                                13 - Gilderoy Lockhart</option>
+                            <option
+                                value="https://preview.redd.it/jsaxkeizs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=ef7f72668cc9313c49c1b99f925dfa171aef400b">
+                                14 - Dobby</option>
+                            <option
+                                value="https://preview.redd.it/iv4tpqhzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=41fd4fe2b0531db8c916968bbe2e981a8f43a15a">
+                                15 - Sirius Black</option>
+                            <option
+                                value="https://preview.redd.it/8ulkhqhzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=b2e2fdfe3f3127efba80afafd4e8b6770a154d3a">
+                                16 - Ginny Weasley</option>
+                            <option
+                                value="https://preview.redd.it/y3in1gizs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=29d40a64b9dfe6782c83956603dd3644f411a368">
+                                17 - Luna Lovegood</option>
+                            <option
+                                value="https://preview.redd.it/vd21xphzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=8be4fe6fa0bd082b16a49c02547e51f2f5c544f2">
+                                18 - Dolores Umbridge</option>
+                            <option
+                                value="https://preview.redd.it/5jwg6fizs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=85f0240eeaa6c9f0ed2308b37eb2e2efb246956b">
+                                19 - Crookshanks</option>
+                            <option
+                                value="https://preview.redd.it/9grekthzs54a1.jpg?width=1024&format=pjpg&auto=webp&v=enabled&s=3c10703d34948a4b0506ce1901c5223ba32d1e45">
+                                20 - Lord Voldermort</option>
+                        </select>
+                        <div id="error_avatar" class="error"></div>
+                    </div>
+
+                    <div>
+                        <select id="spell" required>
+                            <option value="" disabled selected hidden>Feitiço preferido</option>
+                            <option value="Expelliarmus">Expelliarmus - Feitiço de Desarmamento</option>
+                            <option value="Estupefaça">Estupefaça - Joga a vítima para longe</option>
+                            <option value="Expecto Patronum">Expecto Patronum - Feitiço defensivo eficiente contra
+                                Dementadores
+                                e Mortalhas-Viva</option>
+                            <option value="Avada Kedavra">Avada Kedavra - Causa morte instantânea, sem deixar nenhum
+                                sinal
+                            </option>
+                            <option value="Crucio">Crucio - Causa enormes dores físicas por todo o corpo da vitima
+                            </option>
+                            <option value="Imperius">Imperius - Faz com que a vítima seja controlada pelo bruxo que
+                                lançou o
+                                feitiço</option>
+                            <option value="Accio">Accio - Este feitiço traz os objetos ao feiticeiro</option>
+                            <option value="Lumos">Lumos - Cria luz na ponta da varinha</option>
+                            <option value="Alohomora">Alohomora - Usado para destrancar portas trancadas por chaves
+                                comuns
+                            </option>
+                            <option value="Tarantallegra">Tarantallegra - Faz o oponente dançar sem parar</option>
+                            <option value="Petrificus Totalus">Petrificus Totalus - Transforma o alvo em pedra</option>
+                            <option value="Wingardium Leviosa">Wingardium Leviosa - Faz objectos levitarem</option>
+                            <option value="Legilimens">Legilimens - Permite o bruxo de penetrar na mente da vítima,
+                                podendo
+                                ver
+                                memórias e emoções</option>
+                            <option value="Immobilus">Immobilus - Feitiço de efeito paralisante</option>
+                        </select>
+                        <div id="error_spell" class="error"></div>
+                    </div>
+
+                    <div>
+                        <select id="house" required>
+                            <option value="" disabled selected hidden>Casa em hogwarts</option>
+                            <option value="Grifinória">Grifinória - Lar dos ousados e corajosos</option>
+                            <option value="Sonserina">Sonserina - Onde moram os astutos e ambiciosos</option>
+                            <option value="Corvinal">Corvinal - É a morada dos que se destacam pela inteligência e
+                                priorizam
+                                o
+                                aprendizado</option>
+                            <option value="Lufa-Lufa">Lufa-Lufa - Aqui residem os mais leais e justos</option>
+                        </select>
+                        <div id="error_house" class="error"></div>
+                    </div>
+
+                    <div>
+                        <select id="patron" required>
+                            <option value="" disabled selected hidden>Patrono</option>
+                            <option value="Nenhum">Nenhum</option>
+                            <option value="Cervo">Cervo</option>
+                            <option value="Lontra">Lontra</option>
+                            <option value="Cão">Cão</option>
+                            <option value="Fênix">Fênix</option>
+                            <option value="Corça">Corça</option>
+                            <option value="Cachorro-lobo">Cachorro-lobo</option>
+                            <option value="Gato">Gato</option>
+                            <option value="Incorpóreo">Incorpóreo</option>
+                            <option value="Pega">Pega</option>
+                            <option value="Cavalo">Cavalo</option>
+                            <option value="Lebre">Lebre</option>
+                            <option value="Lobo">Lobo</option>
+                            <option value="Gato persa">Gato persa</option>
+                        </select>
+                        <div id="error_patron" class="error"></div>
+                    </div>
+
+                    <div>
+                        <textarea id="details" rows="5"
+                            placeholder="Descreva mais detalhes sobre a personalidade do deu avatar..."
+                            required maxlength="320"></textarea>
+                        <div id="error_details" class="error"></div>
+                    </div>
+                </form>
+
+                <div class="btn">
+                <button id="create" type="submit">Finalizar</button>
+                <button id="clean">Limpar</button>
+                </div>
+
+            </section>
+
+            <h1 id="title_cards_list">Nenhum trouxa cadastrado no ministério da magia</h1>
+            <section id="cards_list">
+                
+            </section>
+            <script src="../scripts/main.js"></script>
+        </div>
+    </body>
+</html>
