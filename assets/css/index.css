@@ -328,12 +328,7 @@ border: 1px solid red;
   
   @media screen and (min-width: 769px) and (max-width: 1293px) {
     /* ajuste para telas entre 769px e 1024px */
-    #cards_list{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     
-    }
+    
     #title_cards_list{
       font-size: 30px!important;
     }
